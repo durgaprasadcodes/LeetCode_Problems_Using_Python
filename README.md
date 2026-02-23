@@ -86,7 +86,7 @@ font-weight:600;
 text-decoration:none;
 box-shadow:0 6px 18px rgba(0,0,0,0.3);
 ">
-Visit My LeetCode 🚀
+Visit My LeetCode Profile 🚀
 </a>
 
 <p style="color:#e6e6e6;margin-top:14px;font-size:15px;">
