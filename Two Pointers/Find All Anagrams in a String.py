@@ -27,3 +27,6 @@ class Solution(object):
 s=Solution()
 # print(s.findAnagrams("cbaebabacd","abc"))
 print(s.findAnagrams("abab","ab"))
+
+# TIME COMPLEXITY - O(N)
+# SPACE COMPLEXITY -ON(N)
