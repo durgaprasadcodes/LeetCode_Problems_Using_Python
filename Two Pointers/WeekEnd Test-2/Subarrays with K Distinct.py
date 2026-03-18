@@ -16,4 +16,8 @@ class Solution(object):
             count+=(r-l+1)
         return count
 
+s=Solution()
+print(s.subarraysWithKDistinct([1,2,1,2,3],2))
+# Time Complexity: O(n)
+# Space Complexity: O(k)
         
