@@ -5,36 +5,29 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        import collections
-        s1=collections.defaultdict(int)
-        t1=collections.defaultdict(int)
-        p=1
-        
-        for i in range(len(s)):
-            if s[i]=="#":
-                while  i<len(s) and s[i]=="#":
-                    s1[s[i-p]]-=1
-                    if s1[s[i-p]]==0:
-                        del s1[s[i-p]]
-                    i+=1
-                    p+=1
-            else:
-                s1[s[i]]+=1
-        print(s1)
-            
-        p=1
-        
-        for i in range(len(t)):
-            if t[i]=="#":
-                while  i<len(t) and t[i]=="#":
-                    t1[t[i-p]]-=1
-                    if t1[t[i-p]]<=0:
-                        del t1[t[i-p]]
-                    i+=1
-                    p+=1
-            else:
-                t1[t[i]]+=1
-        print(t1)
-        return s1==t1
+        # def build(st):
+        #     s=[]
+        #     for i in st:
+        #         if i!="#":
+        #             s.append(i)
+        #         elif s:
+        #             s.pop()
+        #     return "".join(s)
+        # return build(s)==build(t)
+       
+        def build(s):
+            i=len(s)-1
+            ans=""
+            while i>=0:
+                if s[i]=='#':
+                    i-=3
+                else:
+                    i-=1
+                ans+=s[i] if s[i]!='#' else ""
+            return ans
+        print(build(s),build(t))
+                
+           
+       
 s=Solution()
 print(s.backspaceCompare("ab##","c#d#"))
