@@ -4,7 +4,6 @@ class Solution:
         i=0
         num=""
         n=len(s)
-
         while i<n and s[i]==" ":
             i+=1
         
@@ -34,4 +33,5 @@ class Solution:
             num=-2**31
 
         return num
+
 
