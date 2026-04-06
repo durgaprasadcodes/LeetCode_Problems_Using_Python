@@ -15,3 +15,6 @@ class Solution:
             if len(d)==k:
                 max_len=max(max_len,r-l+1)
         return max_len if max_len!=float('-inf') else -1
+    
+s=Solution()
+print(s.longestKSubstr("aabacbebebe",3))
