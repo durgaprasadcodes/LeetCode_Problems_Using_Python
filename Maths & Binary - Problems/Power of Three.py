@@ -13,3 +13,6 @@ class Solution(object):
 s=Solution()
 print(s.isPowerOfThree(32))
 print(s.isPowerOfThree(0))
+
+# Time Complexity: O(log3(n))
+# Space Complexity: O(1)
