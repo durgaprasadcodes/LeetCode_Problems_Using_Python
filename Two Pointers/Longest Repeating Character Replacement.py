@@ -1,20 +1,27 @@
-class Solution(object):
-    def characterReplacement(self, s, k):
+import collections
+class Solution:
+    def characterReplacement(self, s: str, k: int) -> int:
+        
         if len(s)==1:
             return 1
-        max_len=0
-        for target in set(s):
-            i=0
-            count=0
-            for j in range(len(s)):
-                if s[j]!=target:
-                    count+=1
-                    while count>k:
-                        if s[i]!=target:
-                            count-=1
-                        i+=1
-                max_len=max(max_len,j-i+1)
-        return max_len
+        counter = collections.defaultdict(int)
+        majority = 0
+        res = 0
+        left = 0
+        for right in range(len(s)):
+
+            counter[s[right]] += 1
+            
+            if counter[s[right]] > counter[majority]:
+                majority = s[right]
+            
+            if right - left + 1 - counter[majority] > k:
+                counter[s[left]] -= 1
+                left += 1
+            
+            res = right - left + 1
+
+        return res
 s=Solution()
 print(s.characterReplacement("ABAB",2))
 print(s.characterReplacement("ABAABBABA",2))
