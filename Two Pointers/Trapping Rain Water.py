@@ -1,32 +1,25 @@
 class Solution(object):
-    def trap(self, height):
+    def trap(self, nums):
         """
         :type height: List[int]
         :rtype: int
         """
-        leftmax, rightmax = height[0], height[-1]
-
-        n = len(height)
-        if n <= 2:
+        if not nums:
             return 0
-
-        left, right = 1, n-2
-        res = 0
-        while left <= right:
-            if leftmax > rightmax:
-                if rightmax > height[right]:
-                    res += rightmax - height[right]
-                else:
-                    rightmax = height[right]
-                right -= 1
+        l,r=0,len(nums)-1
+        left_max,right_max=nums[l],nums[r]
+        res=0
+        while l<r:
+            if nums[l]<nums[r]:
+                left_max=max(left_max,nums[l])
+                res+=left_max-nums[l]
+                l+=1
             else:
-                if leftmax > height[left]:
-                    res += leftmax - height[left]
-                else:
-                    leftmax = height[left]
-                left +=1
-
+                right_max=max(right_max,nums[r])
+                res+=right_max-nums[r]
+                r-=1
         return res
+        
 s=Solution()
 print(s.trap([0,1,0,2,1,0,1,3,2,1,2,1]))
                 
