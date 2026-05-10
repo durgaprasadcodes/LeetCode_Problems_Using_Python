@@ -1,23 +1,23 @@
-class Solution(object):
-    def maxScore(self, cardPoints, k):
-        """
-        :type cardPoints: List[int]
-        :type k: int
-        :rtype: int
-        """
-        if len(cardPoints)<k:
+class Solution:
+    def maxScore(self, nums,k) -> int:
+        
+        n=len(nums)
+        if k>n:
             return 0
-        l=0
-        r=len(cardPoints)-1
-        cur_sum=max_sum=sum(cardPoints[:k])
-        for l in range(k-1,-1,-1):
-            cur_sum+=(cardPoints[r]-cardPoints[l])
-            r-=1
-            max_sum=max(max_sum,cur_sum)
-        return max_sum
+        if k==n:
+            return sum(nums)
 
+        max_sum=curr_sum=sum(nums[:k])
+        l=k-1
+        for r in range(n-1,n-k-1,-1):
+            curr_sum+=(-nums[l]+nums[r])
+            max_sum=max(max_sum,curr_sum)
+            l-=1
+        return max_sum
+    
 s=Solution()
 print(s.maxScore([1,2,3,4,5,6,1],3))
+print(s.maxScore([1,79,80,1,1,1,200,1],3))
 
 # Time Complexity: O(k)
 # Space Complexity: O(1)
