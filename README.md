@@ -1,29 +1,25 @@
 <div align="center">
 
-```
+<div align="center">
+    
+ ```
 ██╗     ███████╗███████╗████████╗ ██████╗ ██████╗ ██████╗ ███████╗
 ██║     ██╔════╝██╔════╝╚══██╔══╝██╔════╝██╔═══██╗██╔══██╗██╔════╝
 ██║     █████╗  █████╗     ██║   ██║     ██║   ██║██║  ██║█████╗  
 ██║     ██╔══╝  ██╔══╝     ██║   ██║     ██║   ██║██║  ██║██╔══╝  
 ███████╗███████╗███████╗   ██║   ╚██████╗╚██████╔╝██████╔╝███████╗
 ╚══════╝╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
+
 ```
-
-### `DURGA PRASAD KOTA` · Data Structures & Algorithms · Python
-
-[![Profile Views](https://komarev.com/ghpvc/?username=Durga_Prasad_Kota&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)](https://leetcode.com/u/Durga_Prasad_Kota/)
-&nbsp;
-![Language](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-&nbsp;
-![Status](https://img.shields.io/badge/Status-Active-00C851?style=flat-square)
-&nbsp;
-![Focus](https://img.shields.io/badge/Focus-Interview_Ready-FF6B35?style=flat-square)
-
 </div>
 
----
+### `DURGA PRASAD KOTA` · `DATA STRUCTURES & ALGORITHMS` · `PYTHON`
 
-<img src="https://leetcard.jacoblin.cool/Durga_Prasad_Kota?theme=dark&font=Baloo&ext=heatmap" width="100%" />
+<div align="center">
+    <img src="https://leetcard.jacoblin.cool/Durga_Prasad_Kota?theme=dark&font=Baloo&ext=heatmap"/>
+</div>
+
+</div>
 
 ---
 
@@ -31,10 +27,10 @@
 
 ```python
 class Developer:
-    name       = "Durga Prasad Kota"
-    mission    = "Build the mindset of a problem solver"
-    language   = "Python"
-    philosophy = ["Think before you code", "Patterns over memorization", "Optimize everything"]
+    Name       = "Durga Prasad Kota"
+    Mission    = "Build the mindset of a problem solver"
+    Language   = "Python"
+    Philosophy = ["Think before you code", "Patterns over memorization", "Optimize everything"]
 
     def daily_routine(self):
         return ["Learn ✦ Practice ✦ Improve ✦ Repeat"]
@@ -75,30 +71,31 @@ It's a **documented war** against mediocre thinking — every problem solved wit
 
 ---
 
-##  TOPICS MASTERED
+## 📚 TOPICS MASTERED
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   FUNDAMENTALS          INTERMEDIATE           ADVANCED         │
-│   ─────────────         ────────────           ────────         │
-│   📦 Arrays             🔍 Binary Search       🕸  Graphs       │
-│   🔤 Strings            🔗 Linked Lists        🧮 Dynamic Prog  │
-│   🗂  Hashing           🌳 Trees               ♟  Backtracking  │
-│   📚 Stack              🔁 Recursion           🧠 Greedy        │
-│   🚶 Queue              🪟 Sliding Window                       │
-│   🫵 Two Pointers                                               │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
 
-Each topic is practiced until the **pattern becomes instinct**.
+| 🧩 Topic | 🧩 Topic | 🧩 Topic |
+|--------|---------|---------|
+| 📦 Arrays & Strings | 🫵 Two Pointers | 🪟 Sliding Window |
+| 🗂️ Hashing | 📚 Stack | 🚶 Queue |
+| 🔁 Recursion | 🔍 Binary Search | 🔗 Linked List |
+| 🌳 Trees | 🕸️ Graphs | 🧮 Dynamic Programming |
+| 🧠 Greedy | ♟ Backtracking | 🚀 Problem Solving |
+
+</div>
+
+<p align="center">
+Each topic is practiced with a focus on <b>patterns, edge cases, and optimization</b>.
+</p>
+
+> Each topic is practiced until the **pattern becomes instinct**.
 
 ---
 
 ##  ROADMAP
 
-<details>
+
   
 <summary><b>📅 Month 1 — Strong Foundations</b></summary>
 
@@ -108,9 +105,7 @@ Each topic is practiced until the **pattern becomes instinct**.
 ✅  Two Pointers         ──── Opposite ends, sliding window prep
 ```
 
-</details>
 
-<details>
   
 <summary><b>📅 Month 2 — Pattern Mastery</b></summary>
 
@@ -120,9 +115,7 @@ Each topic is practiced until the **pattern becomes instinct**.
 ⚡  Binary Search        ──── On answer, rotated arrays, search space
 ```
 
-</details>
 
-<details>
   
 <summary><b>📅 Month 3 — Structural Thinking</b></summary>
 
@@ -132,9 +125,7 @@ Each topic is practiced until the **pattern becomes instinct**.
 🔜  Graphs               ──── Traversals, topological sort, union find
 ```
 
-</details>
 
-<details>
   
 <summary><b>📅 Month 4 — Advanced Problem Solving</b></summary>
 
@@ -144,28 +135,11 @@ Each topic is practiced until the **pattern becomes instinct**.
 ⏳  Greedy               ──── Interval scheduling, activity selection
 ```
 
-</details>
+
 
 ---
 
-## PHILOSOPHY
 
-```
-┌──────────────────────────────────────────────────┐
-│                                                  │
-│   01.  Understand the problem before coding.     │
-│   02.  Brute force first. Optimize second.       │
-│   03.  Patterns beat memorization every time.    │
-│   04.  Read others' solutions. Learn why.        │
-│   05.  Consistency beats intensity.              │
-│                                                  │
-│   "Every accepted solution compounds over time." │
-│                                                  │
-└──────────────────────────────────────────────────┘
-
-```
-
----
 
 ## CONNECT
 
