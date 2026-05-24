@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="https://leetcard.jacoblin.cool/Prashanth_Naidu?theme=dark&font=Baloo&ext=heatmap"/>
+<img src="https://leetcard.jacoblin.cool/Durga_Prasad_Kota?theme=dark&font=Baloo&ext=heatmap"/>
 
 </div>
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
