@@ -1,202 +1,188 @@
-# 🧠 LeetCode Journey :
-<div align="center"> 
-
-### 👑 Data Structures & Algorithms
-## 📊 LeetCode Stats
-
 <div align="center">
 
-<img src="https://leetcard.jacoblin.cool/Durga_Prasad_Kota?theme=dark&font=Baloo&ext=heatmap"/>
+```
+██╗     ███████╗███████╗████████╗ ██████╗ ██████╗ ██████╗ ███████╗
+██║     ██╔════╝██╔════╝╚══██╔══╝██╔════╝██╔═══██╗██╔══██╗██╔════╝
+██║     █████╗  █████╗     ██║   ██║     ██║   ██║██║  ██║█████╗  
+██║     ██╔══╝  ██╔══╝     ██║   ██║     ██║   ██║██║  ██║██╔══╝  
+███████╗███████╗███████╗   ██║   ╚██████╗╚██████╔╝██████╔╝███████╗
+╚══════╝╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
+```
 
-</div>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+### `DURGA PRASAD KOTA` · Data Structures & Algorithms · Python
 
-### 🚀 Learn • Practice • Improve • Repeat
-
-<img src="https://cdn-icons-png.flaticon.com/512/2721/2721299.png" width="120"/>
-<img src="https://cdn-icons-png.flaticon.com/512/4616/4616734.png" width="120"/>
+[![Profile Views](https://komarev.com/ghpvc/?username=Durga_Prasad_Kota&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)](https://leetcode.com/u/Durga_Prasad_Kota/)
+&nbsp;
+![Language](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+&nbsp;
+![Status](https://img.shields.io/badge/Status-Active-00C851?style=flat-square)
+&nbsp;
+![Focus](https://img.shields.io/badge/Focus-Interview_Ready-FF6B35?style=flat-square)
 
 </div>
 
 ---
 
-## ✨ About This Journey
+<img src="https://leetcard.jacoblin.cool/Durga_Prasad_Kota?theme=dark&font=Baloo&ext=heatmap" width="100%" />
 
-> **This repository is not just about solving problems —  
-it’s about building the mindset of a problem solver.**
+---
 
-Here, I document my **LeetCode + DSA learning journey**, where every solution focuses on:
+##  ABOUT
 
-- 🧠 **Clear logical thinking**
-- 🧩 **Recognizing reusable patterns**
-- ⚡ **Optimized time & space complexity**
-- 🎯 **Interview-ready problem solving**
+```python
+class Developer:
+    name       = "Durga Prasad Kota"
+    mission    = "Build the mindset of a problem solver"
+    language   = "Python"
+    philosophy = ["Think before you code", "Patterns over memorization", "Optimize everything"]
 
+    def daily_routine(self):
+        return ["Learn ✦ Practice ✦ Improve ✦ Repeat"]
+```
 
+This isn't just a solutions repo.  
+It's a **documented war** against mediocre thinking — every problem solved with intent, every pattern internalized, every complexity analyzed.
 
-## 📈 Overall Progress Snapshot
+---
+
+## PROGRESS
 
 <div align="center">
 
-| Level | Progress |
-|------|---------|
-| 🟢 Easy | 🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪ |
-| 🟡 Medium | 🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪ |
-| 🔴 Hard | 🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪ |
+| Difficulty | Solved | Progress |
+|:----------:|:------:|:--------:|
+| 🟢 **Easy** | ~80% | `████████░░` |
+| 🟡 **Medium** | ~60% | `██████░░░░` |
+| 🔴 **Hard** | ~30% | `███░░░░░░░` |
 
 </div>
 
+> *Every bar moves forward. Every day.*
 
-📌 *The goal is simple:*  
-**Think better, code cleaner, and grow consistently.**
+---
+
+##  TECH STACK
+
 <div align="center">
 
-![Language](https://img.shields.io/badge/Language-Python-blueviolet?style=for-the-badge)
-![DSA](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-ff9800?style=for-the-badge)
-![Practice](https://img.shields.io/badge/Practice-LeetCode-success?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Consistent%20Learner-brightgreen?style=for-the-badge)
-![Goal](https://img.shields.io/badge/Goal-Interview%20Ready-ff5722?style=for-the-badge)
+| Tool | Purpose |
+|:----:|:-------:|
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | Primary language — readable, fast, interview-friendly |
+| ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black) | Practice platform |
+| ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | Progress tracking & documentation |
 
 </div>
 
 ---
 
-## 🔗 My LeetCode Profile
+##  TOPICS MASTERED
 
-<div align="center" style="
-padding:32px;
-border-radius:20px;
-background:linear-gradient(135deg,#2b1055,#7597de);
-box-shadow:0 12px 35px rgba(0,0,0,0.35);
-">
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│   FUNDAMENTALS          INTERMEDIATE           ADVANCED         │
+│   ─────────────         ────────────           ────────         │
+│   📦 Arrays             🔍 Binary Search       🕸  Graphs       │
+│   🔤 Strings            🔗 Linked Lists        🧮 Dynamic Prog  │
+│   🗂  Hashing           🌳 Trees               ♟  Backtracking  │
+│   📚 Stack              🔁 Recursion           🧠 Greedy        │
+│   🚶 Queue              🪟 Sliding Window                       │
+│   🫵 Two Pointers                                               │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
-width="50"
-style="background:white;padding:14px;scale:1.1;border-radius:16px;margin-bottom:18px;" />
+Each topic is practiced until the **pattern becomes instinct**.
 
-<a href="https://leetcode.com/u/Prashanth_Naidu/"
-style="
-display:inline-block;
-padding:14px 34px;
-border-radius:30px;
-background:linear-gradient(135deg,#ff9800,#ff5722);
-color:white;
-font-size:20px;
-font-weight:600;
-text-decoration:none;
-box-shadow:0 6px 18px rgba(0,0,0,0.3);
-">
-Visit My LeetCode Profile 🚀
-</a>
+---
 
-<p style="color:#e6e6e6;margin-top:14px;font-size:15px;">
-Consistency • Discipline • Long-Term Growth
-</p>
+##  ROADMAP
+
+<details>
+  
+<summary><b>📅 Month 1 — Strong Foundations</b></summary>
+
+```
+✅  Arrays & Strings     ──── Master in/out, traversal, manipulation
+✅  Hashing              ──── Maps, sets, frequency counting
+✅  Two Pointers         ──── Opposite ends, sliding window prep
+```
+
+</details>
+
+<details>
+  
+<summary><b>📅 Month 2 — Pattern Mastery</b></summary>
+
+```
+⚡  Sliding Window       ──── Fixed & variable window problems
+⚡  Stack & Queue        ──── Monotonic stacks, BFS foundations
+⚡  Binary Search        ──── On answer, rotated arrays, search space
+```
+
+</details>
+
+<details>
+  
+<summary><b>📅 Month 3 — Structural Thinking</b></summary>
+
+```
+🔜  Linked Lists         ──── Fast/slow pointer, reversal, merging
+🔜  Trees                ──── DFS, BFS, LCA, diameter, path sum
+🔜  Graphs               ──── Traversals, topological sort, union find
+```
+
+</details>
+
+<details>
+  
+<summary><b>📅 Month 4 — Advanced Problem Solving</b></summary>
+
+```
+⏳  Dynamic Programming  ──── Memoization, tabulation, 1D/2D DP
+⏳  Backtracking         ──── Permutations, combinations, N-Queens
+⏳  Greedy               ──── Interval scheduling, activity selection
+```
+
+</details>
+
+---
+
+## PHILOSOPHY
+
+```
+┌──────────────────────────────────────────────────┐
+│                                                  │
+│   01.  Understand the problem before coding.     │
+│   02.  Brute force first. Optimize second.       │
+│   03.  Patterns beat memorization every time.    │
+│   04.  Read others' solutions. Learn why.        │
+│   05.  Consistency beats intensity.              │
+│                                                  │
+│   "Every accepted solution compounds over time." │
+│                                                  │
+└──────────────────────────────────────────────────┘
+
+```
+
+---
+
+## CONNECT
+
+<div align="center">
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Durga__Prasad__Kota-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Durga_Prasad_Kota/)
 
 </div>
 
 ---
 
-## 🛠 Tech Stack
-
 <div align="center">
 
-🐍 **Python**
+```
+THINK DEEP  ·  CODE CLEAN  ·  GROW CONSISTENTLY
+```
 
-<br>
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
 
-*Chosen for its readability, clarity, and interview-friendly syntax.*
-
-</div>
-
----
-
-## 🧠 Topics Covered
-
-<div align="center">
-
-| 🧩 Topic | 🧩 Topic | 🧩 Topic |
-|--------|---------|---------|
-| 📦 Arrays & Strings | 🫵 Two Pointers | 🪟 Sliding Window |
-| 🗂 Hashing | 📚 Stack | 🚶 Queue |
-| 🔁 Recursion | 🔍 Binary Search | 🔗 Linked List |
-| 🌳 Trees | 🕸 Graphs | 🧮 Dynamic Programming |
-| 🧠 Greedy | ♟ Backtracking | 🚀 Problem Solving |
-
-</div>
-
-<p align="center">
-Each topic is practiced with a focus on <b>patterns, edge cases, and optimization</b>.
-</p>
-
----
-
-## 📊 Weekly & Monthly DSA Roadmap
-
-<div align="center">
-
-### 🗓 Monthly Focus Plan
-
-<table>
-<tr>
-<th>📅 Month</th>
-<th>🧠 Focus Areas</th>
-<th>🎯 Goal</th>
-</tr>
-
-<tr>
-<td><b>Month 1</b></td>
-<td>
-📦 Arrays & Strings<br>
-🗂 Hashing<br>
-🫵 Two Pointers
-</td>
-<td>Strong Foundations</td>
-</tr>
-
-<tr>
-<td><b>Month 2</b></td>
-<td>
-🪟 Sliding Window<br>
-📚 Stack & Queue<br>
-🔍 Binary Search
-</td>
-<td>Pattern Mastery</td>
-</tr>
-
-<tr>
-<td><b>Month 3</b></td>
-<td>
-🔗 Linked List<br>
-🌳 Trees & Graphs
-</td>
-<td>Structural Thinking</td>
-</tr>
-
-<tr>
-<td><b>Month 4</b></td>
-<td>
-🧮 Dynamic Programming<br>
-♟ Backtracking<br>
-🧠 Greedy
-</td>
-<td>Advanced Problem Solving</td>
-</tr>
-
-</table>
-
-</div>
-
----
-<div align="center">
-
-✨ <b>Consistency beats motivation.</b><br>
-🚀 <b>Every accepted solution compounds over time.</b><br>
-🧠 <b>Understanding > Memorization.</b><br>
-⭐ If you like this journey, consider starring the repository.
-
-</div>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 </div>
