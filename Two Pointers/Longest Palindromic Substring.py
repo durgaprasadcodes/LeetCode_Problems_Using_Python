@@ -4,19 +4,31 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        n=len(s)
-        long=""
-        def solve(i,j):
-            while i>=0 and j<n and s[i]==s[j]:
-                i-=1
-                j+=1
-            return s[i+1:j]
-        for i in range(n):
-            odd=solve(i,i)
-            even=solve(i,i+1)
+        if s=="":
+            return ""
+        if len(s) == 1:
+            return s
+
+        longest=  ""
+
+        def checkPalindrome(l,r):
+            while l>=0 and r<len(s) and s[l]==s[r]:
+                l-=1
+                r+=1
+            return s[l+1:r]
             
-            if len(long)<len(odd):
-                long=odd
-            if len(long)<len(even):
-                long=even
-        return long
+        for i in range(len(s)):
+            oddlength = checkPalindrome(i,i)
+            evenlength =checkPalindrome(i,i+1)
+
+            if len(oddlength) > len(longest):
+                longest = oddlength
+            if len(evenlength)  > len(longest) :
+                longest = evenlength
+        return longest
+    
+s=Solution()
+print(s.longestPalindrome("babad"))
+
+# Time Complexity  O(N^2)
+# Space Complexity O(1)
