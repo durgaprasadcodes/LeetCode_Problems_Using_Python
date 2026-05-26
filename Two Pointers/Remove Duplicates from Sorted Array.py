@@ -4,14 +4,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        if not nums:
-            return 0
-        j=0
-        for i in range(1,len(nums)):
-            if nums[j]!=nums[i]:
-                j+=1
-                nums[j]=nums[i]
-        return j+1
+        if len(nums)<=1:
+            return 1
+        prev=0
+        for cur in range(1,len(nums)):
+            if nums[prev] != nums[cur]:
+                prev+=1
+                nums[prev] = nums[cur]
+        return prev +1
 
     
 s=Solution()
