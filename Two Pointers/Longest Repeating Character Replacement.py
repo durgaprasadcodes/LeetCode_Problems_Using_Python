@@ -1,26 +1,18 @@
-import collections
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        
-        if len(s)==1:
-            return 1
-        counter = collections.defaultdict(int)
+        from collections import defaultdict
+        l= 0
         majority = 0
-        res = 0
-        left = 0
-        for right in range(len(s)):
+        d=defaultdict(int)
+        res= 0
+        for r in range(len(s)):
+            d[s[r]]+=1
+            majority = majority if majority >d[s[r]] else d[s[r]]
 
-            counter[s[right]] += 1
-            
-            if counter[s[right]] > counter[majority]:
-                majority = s[right]
-            
-            if right - left + 1 - counter[majority] > k:
-                counter[s[left]] -= 1
-                left += 1
-            
-            res = right - left + 1
-
+            if (r-l+1) - majority > k:
+                d[s[l]]-=1
+                l+=1
+            res = res if res > r-l+1 else r-l+1
         return res
 s=Solution()
 print(s.characterReplacement("ABAB",2))
