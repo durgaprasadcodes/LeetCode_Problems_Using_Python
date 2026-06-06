@@ -1,26 +1,30 @@
-class Solution(object):
-    def findAnagrams(self, s, p):
-        """
-        :type s: str
-        :type p: str
-        :rtype: List[int]
-        """
+class Solution:
+    def findAnagrams(self, s: str, p: str) -> List[int]:
+        if len(p)>len(s):
+            return []
+        p_a = [0]*26
+        s_a = [0]*26
         res=[]
-        j=0
-        p_freq=[0]*26
-        wind_freq=[0]*26
-        for i in p:
-            p_freq[ord(i)-97]+=1
-        for i in s[:len(p)]:
-            wind_freq[ord(i)-97]+=1
-        if p_freq==wind_freq:
-            res.append(j)
+        l=0
+
+        for ch in p:
+            p_a[ord(ch)-97]+=1
+
+        for ch in s[:len(p)]:
+            s_a[ord(ch)-97]+=1
+ 
+        if p_a == s_a:
+            res.append(l)
+
+        s_a[ord(s[l])-97]-=1
+        l=1
+        
         for i in range(len(p),len(s)):
-            wind_freq[ord(s[i-len(p)])-97]-=1
-            wind_freq[ord(s[i])-97]+=1
-            j+=1
-            if p_freq==wind_freq:
-                res.append(j)
+            s_a[ord(s[i])-97]+=1
+            if s_a == p_a:
+                res.append(l)
+            s_a[ord(s[l])-97]-=1
+            l+=1
         return res
 
     
