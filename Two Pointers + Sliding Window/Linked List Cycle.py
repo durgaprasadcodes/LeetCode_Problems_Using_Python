@@ -1,19 +1,11 @@
-class Solution(object):
+class Solution:
     def hasCycle(self, head):
-        """
-        :type head: ListNode
-        :rtype: bool
-        """
-        slow=fast=head
-        
+        slow = fast = head
         while fast and fast.next:
-            
-            fast=fast.next.next
-            slow=slow.next
-            
-            if slow==fast:
+            slow = slow.next
+            fast  = fast.next.next
+            if slow == fast:
                 return True
-            
         return False
 # Time Complexity: O(n)
 # Space Complexity: O(1)
