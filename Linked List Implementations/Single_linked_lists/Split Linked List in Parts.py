@@ -10,8 +10,6 @@ class Solution:
 
         curr = head
         length = 0
-        Equalsize = Extranodes = 0
-
         while curr:
             curr = curr.next
             length+=1
