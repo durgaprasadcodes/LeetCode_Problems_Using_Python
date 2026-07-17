@@ -14,10 +14,11 @@ class Solution:
             seen[prefix] = curr
             curr = curr.next
 
-        prefix = 0                
-        curr = dummy
+        prefix = 0 
+        curr = dummy 
         while curr:
             prefix += curr.val
             curr.next = seen[prefix].next
             curr = curr.next
+
         return dummy.next
