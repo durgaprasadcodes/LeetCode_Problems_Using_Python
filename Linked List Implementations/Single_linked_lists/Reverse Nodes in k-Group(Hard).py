@@ -1,9 +1,10 @@
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 class Solution:
-    def reverseKGroup(self, head,k):
+    def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
         if not head or not head.next:
             return head
 
@@ -33,13 +34,13 @@ class Solution:
             return prev , curr
 
         for _ in range(int(length//k)):
-            cur_head,next_head = reverse(curr,k)
+            cur_head,next_node = reverse(curr,k)
 
             prev.next = cur_head
-            curr.next = next_head
+            curr.next = next_node
 
             prev = curr
-            curr = next_head
+            curr = next_node
 
         return dummy.next 
 
