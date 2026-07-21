@@ -1,12 +1,17 @@
 class Solution:
     def numComponents(self, head,nums):
+
         s = set(nums)
+        res = count = 0
+        prev = None
         curr = head
-        ans = 0
         while curr:
-            if curr.val in s and( not curr.next or curr.next.val not in s ):
-                ans+=1
+            if curr.val in s:
+                count+=1
+            elif count!=0:
+                res+=1
+                count = 0
+            prev = curr
             curr = curr.next
-        return ans
 
-
+        return res+(1 if prev.val in s else 0)
