@@ -11,4 +11,4 @@ class Solution:
                 l += 1
                 score = cur_sum*(r-l+1)
             ans += (r-l+1)
-        return ansa
+        return ans
