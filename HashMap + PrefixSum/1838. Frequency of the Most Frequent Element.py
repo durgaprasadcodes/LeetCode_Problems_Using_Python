@@ -6,7 +6,6 @@ class Solution:
 
         nums.sort()
         l = 0
-        cur_sum = 0
         ans = 0
         for i in range(len(nums)):
             diff = 0
