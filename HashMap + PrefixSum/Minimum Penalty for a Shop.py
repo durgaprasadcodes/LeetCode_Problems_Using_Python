@@ -7,7 +7,7 @@ class Solution:
         for i, ch in enumerate(customers, start=1):
             if ch == "Y":
                 curr_penalty -= 1
-            elif ch == "N":
+            else:
                 curr_penalty += 1
 
             if curr_penalty < min_penalty:
