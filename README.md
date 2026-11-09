@@ -16,7 +16,7 @@
 ### `DURGA PRASAD KOTA` · `DATA STRUCTURES & ALGORITHMS` · `PYTHON`
 
 <div align="center">
-    <img src="https://leetcard.jacoblin.cool/Durga_Prasad_Kota?theme=dark&font=Baloo&ext=heatmap"/>
+    <img src="https://leetcard.jacoblin.cool/durgaprasadcodes?theme=dark&font=Baloo&ext=heatmap"/>
 </div>
 
 </div>
@@ -145,7 +145,7 @@ Each topic is practiced with a focus on <b>patterns, edge cases, and optimizatio
 
 <div align="center">
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Durga__Prasad__Kota-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Durga_Prasad_Kota/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Durga__Prasad__Kota-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/durgaprasadcodes/)
 
 </div>
 
