@@ -41,21 +41,6 @@ It's a **documented war** against mediocre thinking — every problem solved wit
 
 ---
 
-## PROGRESS
-
-<div align="center">
-
-| Difficulty | Solved | Progress |
-|:----------:|:------:|:--------:|
-| 🟢 **Easy** | ~80% | `████████░░` |
-| 🟡 **Medium** | ~60% | `██████░░░░` |
-| 🔴 **Hard** | ~30% | `███░░░░░░░` |
-
-</div>
-
-> *Every bar moves forward. Every day.*
-
----
 
 ##  TECH STACK
 
