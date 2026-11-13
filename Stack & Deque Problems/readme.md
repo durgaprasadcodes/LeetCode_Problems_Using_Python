@@ -34,7 +34,7 @@ A focused **60-problem roadmap** for mastering stack, queue, and deque patterns 
 | Done | # | LeetCode Problem | Difficulty | Pattern / Focus |
 |:--:|--:|:--|:--:|:--|
 | [x] | 1 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | Matching parentheses |
-| [ ] | 2 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 🟢 Easy | Next greater element |
+| [x] | 2 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 🟢 Easy | Next greater element |
 | [ ] | 3 | [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | 🟢 Easy | Stack implementation |
 | [ ] | 4 | [1047. Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | 🟢 Easy | String + stack |
 | [ ] | 5 | [1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 Easy | Adjacent cancellation |
